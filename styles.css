@@ -1,0 +1,23 @@
+#map {
+    height: 400px;
+    background-color: #c54545;
+}
+
+#map::before {
+    content: 'Map goes Here';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 3em;
+}
+
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
+
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+}
